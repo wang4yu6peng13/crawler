@@ -121,3 +121,5 @@ if __name__ == '__main__':
     pool.add_task("/")
     pool.wait_completion()
     print('{} URLs fetched in {:.1f} seconds'.format(len(seen_urls), time.time() - start))
+
+# ruby -run -ehttpd . -p 3000
